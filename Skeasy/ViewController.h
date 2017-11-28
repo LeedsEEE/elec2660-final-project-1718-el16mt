@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 @property (weak, nonatomic) IBOutlet UILabel *heightLabel;
 @property (weak, nonatomic) IBOutlet UILabel *weightLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ageLabel;
@@ -21,6 +22,21 @@
 - (IBAction)ageSlider:(UISlider *)sender;
 - (IBAction)bslSlider:(UISlider *)sender;
 - (IBAction)calculateButton:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *LevelPicker;
+
+@property float height;
+@property float weight;
+@property float age;
+@property float bsl;
+
+@property int heightCategory;
+@property int weightCategory;
+@property int aveCategory;
+@property int skiCategory;
+
+
+
 
 
 @end

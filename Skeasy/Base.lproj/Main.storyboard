@@ -39,10 +39,6 @@
                                     <action selector="bslSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="0Dw-Iq-PxQ"/>
                                 </connections>
                             </slider>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="khT-CM-2Qy">
-                                <frame key="frameInset" minY="310" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjX-QX-UDn">
                                 <frame key="frameInset" minX="16" minY="104" width="51" height="21"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
@@ -121,12 +117,26 @@
                                     <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MB0-QK-Eq3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Skill Level:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHK-dV-nBC">
+                                <frame key="frameInset" minX="16" minY="391" width="130.5" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khT-CM-2Qy">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Duu-jH-HLc"/>
+                                    <constraint firstAttribute="height" constant="150" id="M2e-Of-z7U"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uMO-so-dTn" firstAttribute="top" secondItem="oX0-Gm-jyN" secondAttribute="bottom" constant="-12" id="0R8-mT-6Wt"/>
                             <constraint firstAttribute="leadingMargin" secondItem="mjX-QX-UDn" secondAttribute="leading" id="1un-nW-8v7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sSu-Fl-Kqy" secondAttribute="trailing" id="55h-T7-gAz"/>
+                            <constraint firstItem="khT-CM-2Qy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="81" id="9GT-BF-n1W"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="fHK-dV-nBC" secondAttribute="leading" id="9Md-7R-NMK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nqm-mE-uKa" secondAttribute="trailing" id="B4V-xu-vpS"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Q3a-Fu-UlE" secondAttribute="leading" id="CNo-rK-pJq"/>
                             <constraint firstItem="O5p-h9-45V" firstAttribute="top" secondItem="Uua-fX-9Pf" secondAttribute="bottom" constant="-11" id="FAL-5K-4oo"/>
@@ -135,6 +145,7 @@
                             <constraint firstAttribute="leadingMargin" secondItem="zzD-IO-Jm7" secondAttribute="leading" id="KuZ-WM-Quk"/>
                             <constraint firstItem="O5p-h9-45V" firstAttribute="top" secondItem="sSu-Fl-Kqy" secondAttribute="bottom" constant="29" id="LIe-Rc-ohI"/>
                             <constraint firstAttribute="leadingMargin" secondItem="7kQ-Mi-gHn" secondAttribute="leading" id="LSE-Rc-qUt"/>
+                            <constraint firstItem="fHK-dV-nBC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="371" id="Mlh-n9-Xcw"/>
                             <constraint firstItem="sSu-Fl-Kqy" firstAttribute="top" secondItem="zzD-IO-Jm7" secondAttribute="bottom" constant="-10" id="S1Y-5U-JWB"/>
                             <constraint firstItem="Q3a-Fu-UlE" firstAttribute="top" secondItem="nqm-mE-uKa" secondAttribute="bottom" constant="-12" id="SYl-bS-2o7"/>
                             <constraint firstItem="sSu-Fl-Kqy" firstAttribute="top" secondItem="Q3a-Fu-UlE" secondAttribute="bottom" constant="29" id="Ukx-3s-amZ"/>
@@ -152,9 +163,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="oX0-Gm-jyN" secondAttribute="trailing" id="n24-fH-lvQ"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Uua-fX-9Pf" secondAttribute="leading" id="o99-aV-z4K"/>
                             <constraint firstItem="sSu-Fl-Kqy" firstAttribute="top" secondItem="EsA-9L-3Wx" secondAttribute="bottom" constant="-10" id="thL-4c-zQM"/>
+                            <constraint firstItem="khT-CM-2Qy" firstAttribute="top" secondItem="uMO-so-dTn" secondAttribute="bottom" constant="185" id="uHt-Pv-Zin"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="LevelPicker" destination="khT-CM-2Qy" id="rFm-6g-w1H"/>
                         <outlet property="ageLabel" destination="EsA-9L-3Wx" id="Auv-BG-jN7"/>
                         <outlet property="bslLabel" destination="Nxd-Rs-9OS" id="2F0-o0-Oo7"/>
                         <outlet property="dinLabel" destination="Q22-Me-0ZZ" id="NBf-qt-UVs"/>

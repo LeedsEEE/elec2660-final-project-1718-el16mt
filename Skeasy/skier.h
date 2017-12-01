@@ -18,6 +18,8 @@
 @property int heightCategory;
 @property int weightCategory;
 @property int aveCategory;
+@property int skiCategory;
+
 
 @property float skiLength;
 @property float DIN;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6204A6511FD18F0D00F51CEB /* skier.m in Sources */ = {isa = PBXBuildFile; fileRef = 6204A6501FD18F0D00F51CEB /* skier.m */; };
 		62BADF571FCD8888004B3716 /* SKIEASY LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */; };
 		62C9CE431FC450CF00D80CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE421FC450CF00D80CB8 /* main.m */; };
 		62C9CE461FC450CF00D80CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE451FC450CF00D80CB8 /* AppDelegate.m */; };
@@ -37,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6204A64F1FD18F0D00F51CEB /* skier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skier.h; sourceTree = "<group>"; };
-		6204A6501FD18F0D00F51CEB /* skier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skier.m; sourceTree = "<group>"; };
 		62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SKIEASY LOGO.png"; sourceTree = "<group>"; };
 		62C9CE3E1FC450CF00D80CB8 /* Skeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C9CE421FC450CF00D80CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,8 +107,6 @@
 				62C9CE451FC450CF00D80CB8 /* AppDelegate.m */,
 				62C9CE471FC450CF00D80CB8 /* ViewController.h */,
 				62C9CE481FC450CF00D80CB8 /* ViewController.m */,
-				6204A64F1FD18F0D00F51CEB /* skier.h */,
-				6204A6501FD18F0D00F51CEB /* skier.m */,
 				62C9CE4A1FC450CF00D80CB8 /* Main.storyboard */,
 				62C9CE4D1FC450CF00D80CB8 /* Assets.xcassets */,
 				62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */,
@@ -282,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6204A6511FD18F0D00F51CEB /* skier.m in Sources */,
 				62C9CE491FC450CF00D80CB8 /* ViewController.m in Sources */,
 				62C9CE461FC450CF00D80CB8 /* AppDelegate.m in Sources */,
 				62C9CE431FC450CF00D80CB8 /* main.m in Sources */,

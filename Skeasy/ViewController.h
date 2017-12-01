@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DataModel.h"
+
+
 
 @interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 @property (weak, nonatomic) IBOutlet UILabel *heightLabel;
@@ -24,15 +25,20 @@
 - (IBAction)calculateButton:(UIButton *)sender;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *LevelPicker;
+@property NSInteger row;
+@property NSInteger *skillSelected;
 
 @property float height;
 @property float weight;
 @property float age;
 @property float bsl;
 
+@property int aveCategory;
 @property int heightCategory;
 @property int weightCategory;
-@property int aveCategory;
+@property int addCategory;
+@property int ageCategory;
+@property int skillCategory;
 @property int skiCategory;
 
 

@@ -62,8 +62,13 @@
     else {
         _heightCategory = 13;
     }
+    
+    _addCategory = ((_heightCategory + _weightCategory));
+    NSLog (@"height = %d", _heightCategory);
 
+    
 
+   
 
 }
 
@@ -89,11 +94,56 @@
     else if (_weight<36){
         _weightCategory = 6;
     }
+    else if (_weight<42){
+        _weightCategory = 7;
+    }
+    else if (_weight<49) {
+        _weightCategory = 8;
+    }
+    else if (_weight<58) {
+        _weightCategory = 9;
+    }
+    else if (_weight<67) {
+        _weightCategory = 10;
+    }
+    else if (_weight<79) {
+        _weightCategory = 11;
+    }
+    else if (_weight<94){
+        _weightCategory = 12;
+    }
+    else {
+        _weightCategory =13;
+    }
+    
+    _addCategory = ((_heightCategory + _weightCategory));
+    _aveCategory = _addCategory/2;
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+     NSLog (@"weight = %d", _weightCategory);
+    NSLog (@"addition= %d", _addCategory);
+    NSLog (@"average = %d", _aveCategory);
+    
+
 
 }
 
 - (IBAction)ageSlider:(UISlider *)sender {
     self.ageLabel.text = [NSString stringWithFormat:@"%.0f ", sender.value];
+    _age = sender.value;
+    if (_age<10) {
+        _ageCategory = -1;
+    }
+    else if (_age<50) {
+        _ageCategory = 0;
+    }
+    else {
+        _ageCategory = -1;
+    }
+    
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+     NSLog (@"Ski Category = %d", _skiCategory);
+
+ 
 }
 
 - (IBAction)bslSlider:(UISlider *)sender {
@@ -113,12 +163,35 @@
 
 }
 
-/* - (void)pickerView:(UIPickerView *)pickerView
+- (void)pickerView:(UIPickerView *)pickerView
       didSelectRow:(NSInteger)row
        inComponent:(NSInteger)component;{
+    NSString *selValue = [_pickerData objectAtIndex:[_LevelPicker selectedRowInComponent:0]];
+    NSLog (@"skill = %@", selValue);
     
-    return
-} */
+    if ([selValue isEqualToString:@"Beginner"]) {
+        _skillCategory = 0;
+    }
+    if ([selValue isEqualToString:@"Intermediate"]) {
+        _skillCategory = 1;
+    }
+    if ([selValue isEqualToString:@"Advanced"]) {
+        _skillCategory = 2;
+    }
+    
+    NSLog (@"Skill Cat = %d", _skillCategory);
+    
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    
+    NSLog (@"Ski Category = %d", _skiCategory);
+    
+    
+    
+    
+    
+
+}
+
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView;{
     return 1;

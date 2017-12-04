@@ -41,6 +41,9 @@
 @property int skillCategory;
 @property int skiCategory;
 
+@property float dinValue;
+@property float skiLength;
+
 
 
 

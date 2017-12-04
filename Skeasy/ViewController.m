@@ -65,6 +65,286 @@
     
     _addCategory = ((_heightCategory + _weightCategory));
     NSLog (@"height = %d", _heightCategory);
+    
+    _aveCategory = _addCategory/2;
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    
+    if (_height<1.33){
+        _skiLength =1;
+    }
+    else if (_height<1.38){
+        _skiLength =2;
+    }
+    else if (_height<1.43){
+        _skiLength =3;
+    }
+    else if (_height<1.48){
+        _skiLength =4;
+    }
+    else if (_height<1.53){
+        _skiLength =5;
+    }
+    else if (_height<1.59){
+        _skiLength =6;
+    }
+    else if (_height<1.64){
+        _skiLength =7;
+    }
+    else if (_height<1.69){
+        _skiLength =8;
+    }
+    else if (_height<1.74){
+        _skiLength =9;
+    }
+    else if (_height<1.79){
+        _skiLength =10;
+    }
+    else if (_height<1.84){
+        _skiLength =11;
+    }
+    else if (_height<1.89){
+        _skiLength =12;
+    }
+    else {
+        _skiLength =13;
+    }
+    
+    
+    if (_skiCategory == 1){
+        if (_bsl < 271){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 2){
+        if (_bsl < 271){
+            _dinValue =1;
+        }
+        else if (_bsl < 291){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 3){
+        if (_bsl < 271){
+            _dinValue =1.25;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 4){
+        if (_bsl < 251){
+            _dinValue =1.75;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.5;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 5){
+        if (_bsl < 271){
+            _dinValue =2;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 6){
+        if (_bsl < 271){
+            _dinValue =2.5;
+        }
+        else if (_bsl < 291){
+            _dinValue = 2.25;
+        }
+        else if (_bsl < 311){
+            _dinValue = 2;
+        }
+        else {
+            _dinValue = 1.75;
+        }
+    }
+    else if (_skiCategory == 7){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 2.5;
+        }
+        else if (_bsl < 335){
+            _dinValue = 2.25;
+        }
+        else {
+            _dinValue = 2;
+        }
+    }
+    else if (_skiCategory == 8){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3.5;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 3;
+        }
+        else {
+            _dinValue = 2.5;
+        }
+    }
+    else if (_skiCategory == 9){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 4.25;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4;
+        }
+        else if (_bsl < 311){
+            _dinValue = 3.5;
+        }
+        else {
+            _dinValue = 3.25;
+        }
+    }
+    else if (_skiCategory == 10){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 4.5;
+        }
+        else {
+            _dinValue = 4;
+        }
+    }
+    else if (_skiCategory == 11){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 6;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 5.5;
+        }
+        else if (_bsl < 311){
+            _dinValue = 5.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 5;
+        }
+        else {
+            _dinValue = 4.75;
+        }
+    }
+    else if (_skiCategory == 12){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 7;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 6.75;
+        }
+        else if (_bsl < 311){
+            _dinValue = 6.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 6;
+        }
+        else {
+            _dinValue = 5.75;
+        }
+    }
+    else if (_skiCategory == 13){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 8.5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 8;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7;
+        }
+        else {
+            _dinValue = 6.75;
+        }
+    }
+    else if (_skiCategory == 14){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 10;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 9.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 9;
+        }
+        else if (_bsl < 331){
+            _dinValue = 8.5;
+        }
+        else {
+            _dinValue = 8.25;
+        }
+    }
+    else if (_skiCategory == 15){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 12;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 11.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.25;
+        }
+        else {
+            _dinValue = 10;
+        }
+    }
+
+    
+    
+    
 
     
 
@@ -123,6 +403,239 @@
     NSLog (@"addition= %d", _addCategory);
     NSLog (@"average = %d", _aveCategory);
     
+    if (_skiCategory == 1){
+        if (_bsl < 271){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 2){
+        if (_bsl < 271){
+            _dinValue =1;
+        }
+        else if (_bsl < 291){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 3){
+        if (_bsl < 271){
+            _dinValue =1.25;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 4){
+        if (_bsl < 251){
+            _dinValue =1.75;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.5;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 5){
+        if (_bsl < 271){
+            _dinValue =2;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 6){
+        if (_bsl < 271){
+            _dinValue =2.5;
+        }
+        else if (_bsl < 291){
+            _dinValue = 2.25;
+        }
+        else if (_bsl < 311){
+            _dinValue = 2;
+        }
+        else {
+            _dinValue = 1.75;
+        }
+    }
+    else if (_skiCategory == 7){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 2.5;
+        }
+        else if (_bsl < 335){
+            _dinValue = 2.25;
+        }
+        else {
+            _dinValue = 2;
+        }
+    }
+    else if (_skiCategory == 8){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3.5;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 3;
+        }
+        else {
+            _dinValue = 2.5;
+        }
+    }
+    else if (_skiCategory == 9){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 4.25;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4;
+        }
+        else if (_bsl < 311){
+            _dinValue = 3.5;
+        }
+        else {
+            _dinValue = 3.25;
+        }
+    }
+    else if (_skiCategory == 10){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 4.5;
+        }
+        else {
+            _dinValue = 4;
+        }
+    }
+    else if (_skiCategory == 11){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 6;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 5.5;
+        }
+        else if (_bsl < 311){
+            _dinValue = 5.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 5;
+        }
+        else {
+            _dinValue = 4.75;
+        }
+    }
+    else if (_skiCategory == 12){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 7;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 6.75;
+        }
+        else if (_bsl < 311){
+            _dinValue = 6.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 6;
+        }
+        else {
+            _dinValue = 5.75;
+        }
+    }
+    else if (_skiCategory == 13){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 8.5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 8;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7;
+        }
+        else {
+            _dinValue = 6.75;
+        }
+    }
+    else if (_skiCategory == 14){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 10;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 9.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 9;
+        }
+        else if (_bsl < 331){
+            _dinValue = 8.5;
+        }
+        else {
+            _dinValue = 8.25;
+        }
+    }
+    else if (_skiCategory == 15){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 12;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 11.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.25;
+        }
+        else {
+            _dinValue = 10;
+        }
+    }
+
+    
 
 
 }
@@ -142,17 +655,245 @@
     
     _skiCategory = _aveCategory + _skillCategory + _ageCategory;
      NSLog (@"Ski Category = %d", _skiCategory);
+    
+    if (_skiCategory == 1){
+        if (_bsl < 271){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 2){
+        if (_bsl < 271){
+            _dinValue =1;
+        }
+        else if (_bsl < 291){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 3){
+        if (_bsl < 271){
+            _dinValue =1.25;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 4){
+        if (_bsl < 251){
+            _dinValue =1.75;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.5;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 5){
+        if (_bsl < 271){
+            _dinValue =2;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 6){
+        if (_bsl < 271){
+            _dinValue =2.5;
+        }
+        else if (_bsl < 291){
+            _dinValue = 2.25;
+        }
+        else if (_bsl < 311){
+            _dinValue = 2;
+        }
+        else {
+            _dinValue = 1.75;
+        }
+    }
+    else if (_skiCategory == 7){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 2.5;
+        }
+        else if (_bsl < 335){
+            _dinValue = 2.25;
+        }
+        else {
+            _dinValue = 2;
+        }
+    }
+    else if (_skiCategory == 8){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3.5;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 3;
+        }
+        else {
+            _dinValue = 2.5;
+        }
+    }
+    else if (_skiCategory == 9){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 4.25;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4;
+        }
+        else if (_bsl < 311){
+            _dinValue = 3.5;
+        }
+        else {
+            _dinValue = 3.25;
+        }
+    }
+    else if (_skiCategory == 10){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 4.5;
+        }
+        else {
+            _dinValue = 4;
+        }
+    }
+    else if (_skiCategory == 11){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 6;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 5.5;
+        }
+        else if (_bsl < 311){
+            _dinValue = 5.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 5;
+        }
+        else {
+            _dinValue = 4.75;
+        }
+    }
+    else if (_skiCategory == 12){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 7;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 6.75;
+        }
+        else if (_bsl < 311){
+            _dinValue = 6.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 6;
+        }
+        else {
+            _dinValue = 5.75;
+        }
+    }
+    else if (_skiCategory == 13){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 8.5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 8;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7;
+        }
+        else {
+            _dinValue = 6.75;
+        }
+    }
+    else if (_skiCategory == 14){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 10;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 9.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 9;
+        }
+        else if (_bsl < 331){
+            _dinValue = 8.5;
+        }
+        else {
+            _dinValue = 8.25;
+        }
+    }
+    else if (_skiCategory == 15){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 12;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 11.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.25;
+        }
+        else {
+            _dinValue = 10;
+        }
+    }
+
 
  
 }
 
-- (IBAction)bslSlider:(UISlider *)sender {
-    self.bslLabel.text = [NSString stringWithFormat:@"%.0f mm", sender.value];
-}
 
-- (IBAction)calculateButton:(UIButton *)sender {
 
-}
 
 - (NSString *)pickerView:(UIPickerView *)pickerView
              titleForRow:(NSInteger)row
@@ -185,12 +926,546 @@
     
     NSLog (@"Ski Category = %d", _skiCategory);
     
+    if (_skiCategory == 1){
+        if (_bsl < 271){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 2){
+        if (_bsl < 271){
+            _dinValue =1;
+        }
+        else if (_bsl < 291){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 3){
+        if (_bsl < 271){
+            _dinValue =1.25;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 4){
+        if (_bsl < 251){
+            _dinValue =1.75;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.5;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 5){
+        if (_bsl < 271){
+            _dinValue =2;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 6){
+        if (_bsl < 271){
+            _dinValue =2.5;
+        }
+        else if (_bsl < 291){
+            _dinValue = 2.25;
+        }
+        else if (_bsl < 311){
+            _dinValue = 2;
+        }
+        else {
+            _dinValue = 1.75;
+        }
+    }
+    else if (_skiCategory == 7){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 2.5;
+        }
+        else if (_bsl < 335){
+            _dinValue = 2.25;
+        }
+        else {
+            _dinValue = 2;
+        }
+    }
+    else if (_skiCategory == 8){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3.5;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 3;
+        }
+        else {
+            _dinValue = 2.5;
+        }
+    }
+    else if (_skiCategory == 9){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 4.25;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4;
+        }
+        else if (_bsl < 311){
+            _dinValue = 3.5;
+        }
+        else {
+            _dinValue = 3.25;
+        }
+    }
+    else if (_skiCategory == 10){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 4.5;
+        }
+        else {
+            _dinValue = 4;
+        }
+    }
+    else if (_skiCategory == 11){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 6;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 5.5;
+        }
+        else if (_bsl < 311){
+            _dinValue = 5.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 5;
+        }
+        else {
+            _dinValue = 4.75;
+        }
+    }
+    else if (_skiCategory == 12){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 7;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 6.75;
+        }
+        else if (_bsl < 311){
+            _dinValue = 6.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 6;
+        }
+        else {
+            _dinValue = 5.75;
+        }
+    }
+    else if (_skiCategory == 13){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 8.5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 8;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7;
+        }
+        else {
+            _dinValue = 6.75;
+        }
+    }
+    else if (_skiCategory == 14){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 10;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 9.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 9;
+        }
+        else if (_bsl < 331){
+            _dinValue = 8.5;
+        }
+        else {
+            _dinValue = 8.25;
+        }
+    }
+    else if (_skiCategory == 15){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 12;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 11.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.25;
+        }
+        else {
+            _dinValue = 10;
+        }
+    }
+
+    
     
     
     
     
 
 }
+
+- (IBAction)bslSlider:(UISlider *)sender {
+    self.bslLabel.text = [NSString stringWithFormat:@"%.0f mm", sender.value];
+    _bsl = sender.value;
+    
+     _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    
+    if (_skiCategory == 1){
+        if (_bsl < 271){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 2){
+        if (_bsl < 271){
+            _dinValue =1;
+        }
+        else if (_bsl < 291){
+            _dinValue = 0.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+        }
+    else if (_skiCategory == 3){
+        if (_bsl < 271){
+            _dinValue =1.25;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 4){
+        if (_bsl < 251){
+            _dinValue =1.75;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.5;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 5){
+        if (_bsl < 271){
+            _dinValue =2;
+        }
+        else if (_bsl < 291){
+            _dinValue = 1.75;
+        }
+        else {
+            _dinValue = 0;
+        }
+    }
+    else if (_skiCategory == 6){
+        if (_bsl < 271){
+            _dinValue =2.5;
+        }
+        else if (_bsl < 291){
+            _dinValue = 2.25;
+        }
+        else if (_bsl < 311){
+            _dinValue = 2;
+        }
+        else {
+            _dinValue = 1.75;
+        }
+    }
+    else if (_skiCategory == 7){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 2.5;
+        }
+        else if (_bsl < 335){
+            _dinValue = 2.25;
+        }
+        else {
+            _dinValue = 2;
+        }
+    }
+    else if (_skiCategory == 8){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 3.5;
+        }
+        else if  (_bsl < 331){
+            _dinValue = 3;
+        }
+        else {
+            _dinValue = 2.5;
+        }
+    }
+    else if (_skiCategory == 9){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 4.25;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4;
+        }
+        else if (_bsl < 311){
+            _dinValue = 3.5;
+        }
+        else {
+            _dinValue = 3.25;
+        }
+    }
+    else if (_skiCategory == 10){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 4.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 4.5;
+        }
+        else {
+            _dinValue = 4;
+        }
+    }
+    else if (_skiCategory == 11){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 6;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 5.5;
+        }
+        else if (_bsl < 311){
+            _dinValue = 5.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 5;
+        }
+        else {
+            _dinValue = 4.75;
+        }
+    }
+    else if (_skiCategory == 12){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 7;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 6.75;
+        }
+        else if (_bsl < 311){
+            _dinValue = 6.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 6;
+        }
+        else {
+            _dinValue = 5.75;
+        }
+    }
+    else if (_skiCategory == 13){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 8.5;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 8;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 7;
+        }
+        else {
+            _dinValue = 6.75;
+        }
+    }
+    else if (_skiCategory == 14){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 10;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 9.5;
+        }
+        else if (_bsl < 331){
+            _dinValue = 9;
+        }
+        else if (_bsl < 331){
+            _dinValue = 8.5;
+        }
+        else {
+            _dinValue = 8.25;
+        }
+    }
+    else if (_skiCategory == 15){
+        if (_bsl < 251){
+            _dinValue = 0;
+        }
+        else if (_bsl < 271){
+            _dinValue = 12;
+        }
+        else if  (_bsl < 291){
+            _dinValue = 11.25;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.75;
+        }
+        else if (_bsl < 331){
+            _dinValue = 10.25;
+        }
+        else {
+            _dinValue = 10;
+        }
+    }
+    
+    
+       NSLog (@"Din = %f", _dinValue);
+}
+
+
+
+
+- (IBAction)calculateButton:(UIButton *)sender {
+    
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    
+    if (_dinValue > 0){
+        self.dinLabel.text = [NSString stringWithFormat:@"%.2f", _dinValue];
+    }
+    else {
+        self.dinLabel.text = [NSString stringWithFormat:@"Error"];
+        
+    }
+    
+    
+    if (_skiLength == 1){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"115-130"];
+    }
+    else if (_skiLength == 2){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"125-140"];
+    }
+    else if (_skiLength == 3){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"130-145"];
+    }
+    else if (_skiLength == 4){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"135-150"];
+    }
+    else if (_skiLength == 5){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"135-155"];
+    }
+    else if (_skiLength == 6){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"145-165"];
+    }
+    else if (_skiLength == 7){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170"];
+    }
+    else if (_skiLength == 8){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"155-175"];
+    }
+    else if (_skiLength == 9){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"160-180"];
+    }
+    else if (_skiLength == 10){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"165-180"];
+    }
+    else if (_skiLength == 11){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"170-190"];
+    }
+    else if (_skiLength == 12){
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"175-195"];
+    }
+    else{
+        self.skiLengthLabel.text = [NSString stringWithFormat:@"180-200"];
+    }
+}
+
+    
 
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView;{

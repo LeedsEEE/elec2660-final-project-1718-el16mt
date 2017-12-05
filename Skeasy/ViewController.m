@@ -39,6 +39,9 @@
     self.dinLabel.text = [NSString stringWithFormat:@"3.50"];
     self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170 m"];
     
+    self.skillInfo.hidden = true;
+
+    
     
     
 }
@@ -1490,4 +1493,17 @@
 
 
 
+- (IBAction)skillInfoButton:(UIButton *)sender {
+    
+    if (self.skillInfo.hidden == false){
+        self.skillInfo.hidden = true;
+        
+    }
+    if (self.skillInfo.hidden == true){
+        self.skillInfo.hidden = false;
+    }
+    
+    
+    
+}
 @end

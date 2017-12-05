@@ -44,6 +44,8 @@
 @property float dinValue;
 @property float skiLength;
 
+@property (weak, nonatomic) IBOutlet UIImageView *skillInfo;
+- (IBAction)skillInfoButton:(UIButton *)sender;
 
 
 

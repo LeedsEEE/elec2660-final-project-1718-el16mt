@@ -20,6 +20,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="30dc2fe75457200dc38ee77a53ad244c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NhO-cU-PoR"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="251" misplaced="YES" image="SKIEASY LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="dHs-Gd-IqQ">
+                                <frame key="frameInset" minX="75" minY="-31" width="218" height="257"/>
+                            </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.635" minValue="1.3200000000000001" maxValue="1.95" translatesAutoresizingMaskIntoConstraints="NO" id="uMO-so-dTn">
                                 <connections>
                                     <action selector="heightSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="rld-hX-t6U"/>
@@ -73,7 +76,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EsA-9L-3Wx">
-                                <frame key="frameInset" minX="324.5" minY="221" width="34.5" height="23"/>
+                                <frame key="frameInset" minX="317" minY="221" width="42" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -130,8 +133,20 @@
                                     <constraint firstAttribute="height" constant="150" id="M2e-Of-z7U"/>
                                 </constraints>
                             </pickerView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="251" misplaced="YES" image="SKIEASY LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="dHs-Gd-IqQ">
-                                <frame key="frameInset" minX="75" minY="-31" width="218" height="257"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejm-gT-Dgf">
+                                <frame key="frameInset" minX="96" minY="327" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="skillInfoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpw-RQ-igm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bh-hm-8qc">
+                                <frame key="frameInset" minX="148" minY="407" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speech-bubble-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="bv7-Gl-ApW">
+                                <frame key="frameInset" minX="45" minY="141" width="240" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -198,6 +213,7 @@
                         <outlet property="dinLabel" destination="Q22-Me-0ZZ" id="NBf-qt-UVs"/>
                         <outlet property="heightLabel" destination="oX0-Gm-jyN" id="UpO-5R-EaA"/>
                         <outlet property="skiLengthLabel" destination="Y5e-nQ-eCm" id="qFp-e7-1We"/>
+                        <outlet property="skillInfo" destination="bv7-Gl-ApW" id="ZIe-hX-Wje"/>
                         <outlet property="weightLabel" destination="nqm-mE-uKa" id="b4R-gF-FaZ"/>
                     </connections>
                 </viewController>
@@ -209,5 +225,6 @@
     <resources>
         <image name="30dc2fe75457200dc38ee77a53ad244c.jpg" width="500" height="740"/>
         <image name="SKIEASY LOGO.png" width="1890" height="1417"/>
+        <image name="speech-bubble-hi.png" width="600" height="438"/>
     </resources>
 </document>

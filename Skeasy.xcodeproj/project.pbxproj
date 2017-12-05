@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6230CA771FD6DA4500E0AE22 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6230CA761FD6DA4500E0AE22 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */; };
 		62BADF571FCD8888004B3716 /* SKIEASY LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */; };
 		62C9CE431FC450CF00D80CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE421FC450CF00D80CB8 /* main.m */; };
 		62C9CE461FC450CF00D80CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE451FC450CF00D80CB8 /* AppDelegate.m */; };
@@ -16,8 +17,6 @@
 		62C9CE511FC450CF00D80CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C9CE4F1FC450CF00D80CB8 /* LaunchScreen.storyboard */; };
 		62C9CE5C1FC450CF00D80CB8 /* SkeasyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE5B1FC450CF00D80CB8 /* SkeasyTests.m */; };
 		62C9CE671FC450CF00D80CB8 /* SkeasyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE661FC450CF00D80CB8 /* SkeasyUITests.m */; };
-		62EE93911FD5B06F002C92E1 /* night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62EE93901FD5B06F002C92E1 /* night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg */; };
-		62EE93931FD5B0ED002C92E1 /* 30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62EE93921FD5B0ED002C92E1 /* 30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6230CA761FD6DA4500E0AE22 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 30dc2fe75457200dc38ee77a53ad244c.jpg; path = ../../30dc2fe75457200dc38ee77a53ad244c.jpg; sourceTree = "<group>"; };
 		62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SKIEASY LOGO.png"; sourceTree = "<group>"; };
 		62C9CE3E1FC450CF00D80CB8 /* Skeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C9CE421FC450CF00D80CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,8 +55,6 @@
 		62C9CE621FC450CF00D80CB8 /* SkeasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C9CE661FC450CF00D80CB8 /* SkeasyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkeasyUITests.m; sourceTree = "<group>"; };
 		62C9CE681FC450CF00D80CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62EE93901FD5B06F002C92E1 /* night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg"; path = "../../night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg"; sourceTree = "<group>"; };
-		62EE93921FD5B0ED002C92E1 /* 30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg"; path = "../../30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +121,8 @@
 		62C9CE411FC450CF00D80CB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62EE93921FD5B0ED002C92E1 /* 30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg */,
 				62C9CE421FC450CF00D80CB8 /* main.m */,
-				62EE93901FD5B06F002C92E1 /* night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg */,
+				6230CA761FD6DA4500E0AE22 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */,
 				62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */,
 			);
 			name = "Supporting Files";
@@ -255,10 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62EE93931FD5B0ED002C92E1 /* 30dc2fe75457200dc38ee77a53ad244c--mountain-style-snow-mountain.jpg in Resources */,
-				62EE93911FD5B06F002C92E1 /* night-sky-scene-winter-hd-landscape-photography-of-white-and-black-mountain-during-daytime-landscape-Snowy-Mountain-Landscape-Photography-photography-of-white.jpg in Resources */,
 				62C9CE511FC450CF00D80CB8 /* LaunchScreen.storyboard in Resources */,
 				62BADF571FCD8888004B3716 /* SKIEASY LOGO.png in Resources */,
+				6230CA771FD6DA4500E0AE22 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */,
 				62C9CE4E1FC450CF00D80CB8 /* Assets.xcassets in Resources */,
 				62C9CE4C1FC450CF00D80CB8 /* Main.storyboard in Resources */,
 			);

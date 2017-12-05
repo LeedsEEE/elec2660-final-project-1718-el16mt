@@ -31,6 +31,16 @@
     
     self.LevelPicker.delegate = self;
     self.LevelPicker.dataSource = self;
+    
+    self.heightLabel.text = [NSString stringWithFormat:@"1.63 m"];
+    self.weightLabel.text = [NSString stringWithFormat:@"52 kg"];
+    self.ageLabel.text = [NSString stringWithFormat:@"50"];
+    self.bslLabel.text = [NSString stringWithFormat:@"292 mm"];
+    self.dinLabel.text = [NSString stringWithFormat:@"3.50"];
+    self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170 m"];
+    
+    
+    
 }
 
 

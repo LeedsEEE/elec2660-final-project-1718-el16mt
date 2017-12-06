@@ -47,6 +47,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *skillInfo;
 - (IBAction)skillInfoButton:(UIButton *)sender;
 
+@property (weak, nonatomic) IBOutlet UIImageView *bslInfo;
+- (IBAction)bslInfo:(UIButton *)sender;
 
 
 

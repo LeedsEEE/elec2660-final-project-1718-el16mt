@@ -40,6 +40,7 @@
     self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170 m"];
     
     self.skillInfo.hidden = true;
+    self.bslInfo.hidden = true;
 
     
     
@@ -1497,10 +1498,24 @@
     
     if (self.skillInfo.hidden == false){
         self.skillInfo.hidden = true;
+
+    }
+    else if (self.skillInfo.hidden == true){
+        self.skillInfo.hidden = false;
+
+    }
+    
+    
+    
+}
+- (IBAction)bslInfo:(UIButton *)sender {
+    if (self.bslInfo.hidden == false){
+        self.bslInfo.hidden = true;
         
     }
-    if (self.skillInfo.hidden == true){
-        self.skillInfo.hidden = false;
+    else if (self.bslInfo.hidden == true){
+        self.bslInfo.hidden = false;
+        
     }
     
     

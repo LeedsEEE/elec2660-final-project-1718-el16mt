@@ -46,10 +46,12 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *skillInfo;
 - (IBAction)skillInfoButton:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *DINInfo;
 
 @property (weak, nonatomic) IBOutlet UIImageView *bslInfo;
 - (IBAction)bslInfo:(UIButton *)sender;
 
+- (IBAction)DINInfo:(UIButton *)sender;
 
 
 @end

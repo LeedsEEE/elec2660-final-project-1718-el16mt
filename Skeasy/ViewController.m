@@ -52,6 +52,7 @@
     
     self.skillInfo.hidden = true;
     self.bslInfo.hidden = true;
+    self.DINInfo.hidden = true; 
 
     
     
@@ -1526,6 +1527,20 @@
     }
     else if (self.bslInfo.hidden == true){
         self.bslInfo.hidden = false;
+        
+    }
+    
+    
+    
+}
+
+- (IBAction)DINInfo:(UIButton *)sender {
+    if (self.DINInfo.hidden == false){
+        self.DINInfo.hidden = true;
+        
+    }
+    else if (self.bslInfo.hidden == true){
+        self.DINInfo.hidden = false;
         
     }
     

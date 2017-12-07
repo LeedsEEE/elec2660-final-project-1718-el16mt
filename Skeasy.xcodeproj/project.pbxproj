@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		625D9EE51FD86C9500637F74 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625D9EE41FD86C9500637F74 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */; };
-		625D9EE71FD86C9B00637F74 /* speech-bubble-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 625D9EE61FD86C9B00637F74 /* speech-bubble-hi.png */; };
-		628DAFC31FD95C9300B62CEC /* 483901-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 628DAFC21FD95C9300B62CEC /* 483901-200.png */; };
-		628DAFC51FD95CAE00B62CEC /* skiing.png in Resources */ = {isa = PBXBuildFile; fileRef = 628DAFC41FD95CAE00B62CEC /* skiing.png */; };
-		628DAFC71FD9645500B62CEC /* icons8-snowboarding-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 628DAFC61FD9645500B62CEC /* icons8-snowboarding-filled-25.png */; };
-		628DAFC91FD9649500B62CEC /* icons8-skiing-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 628DAFC81FD9649500B62CEC /* icons8-skiing-25.png */; };
+		6268047C1FD9B28C00B834F6 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6268047B1FD9B28C00B834F6 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */; };
+		6268047E1FD9B30100B834F6 /* icons8-skiing-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6268047D1FD9B30100B834F6 /* icons8-skiing-25.png */; };
+		626804821FD9B36300B834F6 /* icons8-snowboarding-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 626804811FD9B36300B834F6 /* icons8-snowboarding-filled-25.png */; };
 		628F72B31FD88D31000BBF20 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628F72B21FD88D31000BBF20 /* SecondViewController.m */; };
+		62A4E0091FD9C9C0007689C6 /* error message 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4E0081FD9C9C0007689C6 /* error message 2.png */; };
 		62BADF571FCD8888004B3716 /* SKIEASY LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */; };
 		62C9CE431FC450CF00D80CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE421FC450CF00D80CB8 /* main.m */; };
 		62C9CE461FC450CF00D80CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE451FC450CF00D80CB8 /* AppDelegate.m */; };
@@ -23,6 +22,8 @@
 		62C9CE511FC450CF00D80CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C9CE4F1FC450CF00D80CB8 /* LaunchScreen.storyboard */; };
 		62C9CE5C1FC450CF00D80CB8 /* SkeasyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE5B1FC450CF00D80CB8 /* SkeasyTests.m */; };
 		62C9CE671FC450CF00D80CB8 /* SkeasyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9CE661FC450CF00D80CB8 /* SkeasyUITests.m */; };
+		62F9288F1FD9C4BB0082CA1B /* skill level writing.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F9288E1FD9C4BB0082CA1B /* skill level writing.png */; };
+		62F928911FD9C4C50082CA1B /* bsl info writing.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F928901FD9C4C50082CA1B /* bsl info writing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +45,12 @@
 
 /* Begin PBXFileReference section */
 		625D9EE41FD86C9500637F74 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 30dc2fe75457200dc38ee77a53ad244c.jpg; path = ../../../Desktop/30dc2fe75457200dc38ee77a53ad244c.jpg; sourceTree = "<group>"; };
-		625D9EE61FD86C9B00637F74 /* speech-bubble-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speech-bubble-hi.png"; path = "../../../Desktop/speech-bubble-hi.png"; sourceTree = "<group>"; };
-		628DAFC21FD95C9300B62CEC /* 483901-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "483901-200.png"; path = "../../483901-200.png"; sourceTree = "<group>"; };
-		628DAFC41FD95CAE00B62CEC /* skiing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skiing.png; path = ../../skiing.png; sourceTree = "<group>"; };
-		628DAFC61FD9645500B62CEC /* icons8-snowboarding-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-snowboarding-filled-25.png"; path = "../../../Downloads/icons8-snowboarding-filled-25.png"; sourceTree = "<group>"; };
-		628DAFC81FD9649500B62CEC /* icons8-skiing-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-skiing-25.png"; path = "../../../Downloads/icons8-skiing-25.png"; sourceTree = "<group>"; };
+		6268047B1FD9B28C00B834F6 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30dc2fe75457200dc38ee77a53ad244c.jpg; sourceTree = "<group>"; };
+		6268047D1FD9B30100B834F6 /* icons8-skiing-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-skiing-25.png"; sourceTree = "<group>"; };
+		626804811FD9B36300B834F6 /* icons8-snowboarding-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-snowboarding-filled-25.png"; sourceTree = "<group>"; };
 		628F72B11FD88D31000BBF20 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
 		628F72B21FD88D31000BBF20 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		62A4E0081FD9C9C0007689C6 /* error message 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error message 2.png"; sourceTree = "<group>"; };
 		62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SKIEASY LOGO.png"; sourceTree = "<group>"; };
 		62C9CE3E1FC450CF00D80CB8 /* Skeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C9CE421FC450CF00D80CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		62C9CE621FC450CF00D80CB8 /* SkeasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C9CE661FC450CF00D80CB8 /* SkeasyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkeasyUITests.m; sourceTree = "<group>"; };
 		62C9CE681FC450CF00D80CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F9288E1FD9C4BB0082CA1B /* skill level writing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skill level writing.png"; sourceTree = "<group>"; };
+		62F928901FD9C4C50082CA1B /* bsl info writing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bsl info writing.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,12 @@
 				62C9CE481FC450CF00D80CB8 /* ViewController.m */,
 				628F72B11FD88D31000BBF20 /* SecondViewController.h */,
 				628F72B21FD88D31000BBF20 /* SecondViewController.m */,
+				6268047B1FD9B28C00B834F6 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */,
+				6268047D1FD9B30100B834F6 /* icons8-skiing-25.png */,
+				626804811FD9B36300B834F6 /* icons8-snowboarding-filled-25.png */,
+				62F928901FD9C4C50082CA1B /* bsl info writing.png */,
+				62F9288E1FD9C4BB0082CA1B /* skill level writing.png */,
+				62A4E0081FD9C9C0007689C6 /* error message 2.png */,
 				62C9CE4A1FC450CF00D80CB8 /* Main.storyboard */,
 				62C9CE4D1FC450CF00D80CB8 /* Assets.xcassets */,
 				62C9CE4F1FC450CF00D80CB8 /* LaunchScreen.storyboard */,
@@ -137,12 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				62C9CE421FC450CF00D80CB8 /* main.m */,
-				628DAFC21FD95C9300B62CEC /* 483901-200.png */,
-				628DAFC81FD9649500B62CEC /* icons8-skiing-25.png */,
-				628DAFC41FD95CAE00B62CEC /* skiing.png */,
 				625D9EE41FD86C9500637F74 /* 30dc2fe75457200dc38ee77a53ad244c.jpg */,
-				628DAFC61FD9645500B62CEC /* icons8-snowboarding-filled-25.png */,
-				625D9EE61FD86C9B00637F74 /* speech-bubble-hi.png */,
 				62BADF561FCD8888004B3716 /* SKIEASY LOGO.png */,
 			);
 			name = "Supporting Files";
@@ -272,16 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628DAFC31FD95C9300B62CEC /* 483901-200.png in Resources */,
 				62C9CE511FC450CF00D80CB8 /* LaunchScreen.storyboard in Resources */,
-				628DAFC51FD95CAE00B62CEC /* skiing.png in Resources */,
+				62F9288F1FD9C4BB0082CA1B /* skill level writing.png in Resources */,
 				62BADF571FCD8888004B3716 /* SKIEASY LOGO.png in Resources */,
 				625D9EE51FD86C9500637F74 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */,
+				626804821FD9B36300B834F6 /* icons8-snowboarding-filled-25.png in Resources */,
+				6268047E1FD9B30100B834F6 /* icons8-skiing-25.png in Resources */,
+				62A4E0091FD9C9C0007689C6 /* error message 2.png in Resources */,
 				62C9CE4E1FC450CF00D80CB8 /* Assets.xcassets in Resources */,
-				628DAFC71FD9645500B62CEC /* icons8-snowboarding-filled-25.png in Resources */,
-				625D9EE71FD86C9B00637F74 /* speech-bubble-hi.png in Resources */,
 				62C9CE4C1FC450CF00D80CB8 /* Main.storyboard in Resources */,
-				628DAFC91FD9649500B62CEC /* icons8-skiing-25.png in Resources */,
+				62F928911FD9C4C50082CA1B /* bsl info writing.png in Resources */,
+				6268047C1FD9B28C00B834F6 /* 30dc2fe75457200dc38ee77a53ad244c.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

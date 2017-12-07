@@ -40,25 +40,25 @@
     
     if (_snowboardHeight < 1.51){
         if (_snowboardWeight < 50){
-            _snowboardSize = 1.1;
+            _snowboardSize = 11;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 1.2;
+            _snowboardSize = 12;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 1.3;
+            _snowboardSize = 13;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 1.4;
+            _snowboardSize = 14;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 1.5;
+            _snowboardSize = 15;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 1.6;
+            _snowboardSize = 16;
         }
         else {
-            _snowboardSize = 1.7;
+            _snowboardSize = 17;
         }
         
         
@@ -67,25 +67,25 @@
     
     else if (_snowboardHeight < 1.7){
         if (_snowboardWeight < 50){
-            _snowboardSize = 2.1;
+            _snowboardSize = 21;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 2.2;
+            _snowboardSize = 22;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 2.3;
+            _snowboardSize = 23;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 2.4;
+            _snowboardSize = 24;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 2.5;
+            _snowboardSize = 25;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 2.6;
+            _snowboardSize = 26;
         }
         else {
-            _snowboardSize = 2.7;
+            _snowboardSize = 27;
         }
         
     
@@ -93,71 +93,71 @@
     
     else if (_snowboardHeight < 1.8542){
         if (_snowboardWeight < 50){
-            _snowboardSize = 3.1;
+            _snowboardSize = 31;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 3.2;
+            _snowboardSize = 32;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 3.3;
+            _snowboardSize = 33;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 3.4;
+            _snowboardSize = 34;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 3.5;
+            _snowboardSize = 35;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 3.6;
+            _snowboardSize = 36;
         }
         else {
-            _snowboardSize = 3.7;
+            _snowboardSize = 37;
         }
     }
     else if (_snowboardHeight < 1.9558){
         if (_snowboardWeight < 50){
-            _snowboardSize = 4.1;
+            _snowboardSize = 41;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 4.2;
+            _snowboardSize = 42;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 4.3;
+            _snowboardSize = 43;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 4.4;
+            _snowboardSize = 44;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 4.5;
+            _snowboardSize = 45;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 4.6;
+            _snowboardSize = 46;
         }
         else {
-            _snowboardSize = 4.7;
+            _snowboardSize = 47;
         }
     }
     else{
         if (_snowboardWeight < 50){
-            _snowboardSize = 5.1;
+            _snowboardSize = 51;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 5.2;
+            _snowboardSize = 52;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 5.3;
+            _snowboardSize = 53;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 5.4;
+            _snowboardSize = 54;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 5.5;
+            _snowboardSize = 55;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 5.6;
+            _snowboardSize = 56;
         }
         else {
-            _snowboardSize = 5.7;
+            _snowboardSize = 57;
         }
     }
      NSLog(@"SNowboard height = %f", _snowboardHeight);
@@ -171,25 +171,25 @@
     
     if (_snowboardHeight < 1.51){
         if (_snowboardWeight < 50){
-            _snowboardSize = 1.1;
+            _snowboardSize = 11;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 1.2;
+            _snowboardSize = 12;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 1.3;
+            _snowboardSize = 13;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 1.4;
+            _snowboardSize = 14;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 1.5;
+            _snowboardSize = 15;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 1.6;
+            _snowboardSize = 16;
         }
         else {
-            _snowboardSize = 1.7;
+            _snowboardSize = 17;
         }
         
         
@@ -198,25 +198,25 @@
     
     else if (_snowboardHeight < 1.7){
         if (_snowboardWeight < 50){
-            _snowboardSize = 2.1;
+            _snowboardSize = 21;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 2.2;
+            _snowboardSize = 22;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 2.3;
+            _snowboardSize = 23;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 2.4;
+            _snowboardSize = 24;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 2.5;
+            _snowboardSize = 25;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 2.6;
+            _snowboardSize = 26;
         }
         else {
-            _snowboardSize = 2.7;
+            _snowboardSize = 27;
         }
         
         
@@ -224,342 +224,281 @@
     
     else if (_snowboardHeight < 1.8542){
         if (_snowboardWeight < 50){
-            _snowboardSize = 3.1;
+            _snowboardSize = 31;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 3.2;
+            _snowboardSize = 32;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 3.3;
+            _snowboardSize = 33;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 3.4;
+            _snowboardSize = 34;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 3.5;
+            _snowboardSize = 35;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 3.6;
+            _snowboardSize = 36;
         }
         else {
-            _snowboardSize = 3.7;
+            _snowboardSize = 37;
         }
     }
     else if (_snowboardHeight < 1.9558){
         if (_snowboardWeight < 50){
-            _snowboardSize = 4.1;
+            _snowboardSize = 41;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 4.2;
+            _snowboardSize = 42;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 4.3;
+            _snowboardSize = 43;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 4.4;
+            _snowboardSize = 44;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 4.5;
+            _snowboardSize = 45;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 4.6;
+            _snowboardSize = 46;
         }
         else {
-            _snowboardSize = 4.7;
+            _snowboardSize = 47;
         }
     }
     else{
         if (_snowboardWeight < 50){
-            _snowboardSize = 5.1;
+            _snowboardSize = 51;
         }
         else if (_snowboardWeight < 60){
-            _snowboardSize = 5.2;
+            _snowboardSize = 52;
         }
         else if (_snowboardWeight < 70){
-            _snowboardSize = 5.3;
+            _snowboardSize = 53;
         }
         else if (_snowboardWeight < 80){
-            _snowboardSize = 5.4;
+            _snowboardSize = 54;
         }
         else if (_snowboardWeight < 90){
-            _snowboardSize = 5.5;
+            _snowboardSize = 55;
         }
         else if (_snowboardWeight < 95){
-            _snowboardSize = 5.6;
+            _snowboardSize = 56;
         }
         else {
-            _snowboardSize = 5.7;
+            _snowboardSize = 57;
         }
     }
-    
-    NSLog(@"snowboard size = %f", _snowboardSize);
+    NSLog(@"snowboard size = %d", _snowboardSize);
     
     
 }
 
 - (IBAction)snowboardCalculate:(UIButton *)sender {
     
-    if (_snowboardHeight < 1.51){
-        if (_snowboardWeight < 50){
-            _snowboardSize = 1.1;
-        }
-        else if (_snowboardWeight < 60){
-            _snowboardSize = 1.2;
-        }
-        else if (_snowboardWeight < 70){
-            _snowboardSize = 1.3;
-        }
-        else if (_snowboardWeight < 80){
-            _snowboardSize = 1.4;
-        }
-        else if (_snowboardWeight < 90){
-            _snowboardSize = 1.5;
-        }
-        else if (_snowboardWeight < 95){
-            _snowboardSize = 1.6;
-        }
-        else {
-            _snowboardSize = 1.7;
-        }
-        
-        
-        
-    }
+    NSLog(@"snowboard size = %d", _snowboardSize);
     
-    else if (_snowboardHeight < 1.7){
-        if (_snowboardWeight < 50){
-            _snowboardSize = 2.1;
-        }
-        else if (_snowboardWeight < 60){
-            _snowboardSize = 2.2;
-        }
-        else if (_snowboardWeight < 70){
-            _snowboardSize = 2.3;
-        }
-        else if (_snowboardWeight < 80){
-            _snowboardSize = 2.4;
-        }
-        else if (_snowboardWeight < 90){
-            _snowboardSize = 2.5;
-        }
-        else if (_snowboardWeight < 95){
-            _snowboardSize = 2.6;
-        }
-        else {
-            _snowboardSize = 2.7;
-        }
-        
-        
-    }
     
-    else if (_snowboardHeight < 1.8542){
-        if (_snowboardWeight < 50){
-            _snowboardSize = 3.1;
-        }
-        else if (_snowboardWeight < 60){
-            _snowboardSize = 3.2;
-        }
-        else if (_snowboardWeight < 70){
-            _snowboardSize = 3.3;
-        }
-        else if (_snowboardWeight < 80){
-            _snowboardSize = 3.4;
-        }
-        else if (_snowboardWeight < 90){
-            _snowboardSize = 3.5;
-        }
-        else if (_snowboardWeight < 95){
-            _snowboardSize = 3.6;
-        }
-        else {
-            _snowboardSize = 3.7;
-        }
-    }
-    else if (_snowboardHeight < 1.9558){
-        if (_snowboardWeight < 50){
-            _snowboardSize = 4.1;
-        }
-        else if (_snowboardWeight < 60){
-            _snowboardSize = 4.2;
-        }
-        else if (_snowboardWeight < 70){
-            _snowboardSize = 4.3;
-        }
-        else if (_snowboardWeight < 80){
-            _snowboardSize = 4.4;
-        }
-        else if (_snowboardWeight < 90){
-            _snowboardSize = 4.5;
-        }
-        else if (_snowboardWeight < 95){
-            _snowboardSize = 4.6;
-        }
-        else {
-            _snowboardSize = 4.7;
-        }
-    }
-    else{
-        if (_snowboardWeight < 50){
-            _snowboardSize = 5.1;
-        }
-        else if (_snowboardWeight < 60){
-            _snowboardSize = 5.2;
-        }
-        else if (_snowboardWeight < 70){
-            _snowboardSize = 5.3;
-        }
-        else if (_snowboardWeight < 80){
-            _snowboardSize = 5.4;
-        }
-        else if (_snowboardWeight < 90){
-            _snowboardSize = 5.5;
-        }
-        else if (_snowboardWeight < 95){
-            _snowboardSize = 5.6;
-        }
-        else {
-            _snowboardSize = 5.7;
-        }
-    }
-    
-    if (_snowboardSize == 1.1){
+    if (_snowboardSize == 11){
             self.snowboardSizeLabel.text = [NSString stringWithFormat:@"146-148 cm"];
+        _snowboardCheck = 1.1;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 1.2){
+    else if (_snowboardSize == 12){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"147-149 cm"];
-        
+        _snowboardCheck = 1.2;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 1.3){
+    else if (_snowboardSize == 13){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"150-152 cm"];
+        _snowboardCheck = 1.3;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 1.4){
+    else if (_snowboardSize == 14){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"153-155 cm"];
+        _snowboardCheck = 1.4;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 1.5){
+    else if (_snowboardSize == 15){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"154-156 cm"];
+        _snowboardCheck = 1.5;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 1.6){
+    else if (_snowboardSize == 16){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"157-159 cm"];
+        _snowboardCheck = 1.6;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 1.7){
+    else if (_snowboardSize == 17){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"158-160 cm"];
+        _snowboardCheck = 1.7;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 2.1){
+    else if (_snowboardSize == 21){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"147-149 cm"];
+        _snowboardCheck = 2.1;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 2.2){
+    else if (_snowboardSize == 22){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"149-151 cm"];
+        _snowboardCheck = 2.2;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 2.3){
+    else if (_snowboardSize == 23){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"151-153 cm"];
-        
+        _snowboardCheck = 2.3;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 2.4){
+    else if (_snowboardSize == 24){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"154-156 cm"];
-        
+        _snowboardCheck = 2.4;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 2.5){
+    else if (_snowboardSize == 25){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"155-157 cm"];
-        
+        _snowboardCheck = 2.5;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 2.6){
+    else if (_snowboardSize == 26){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"158-160 cm"];
-        
+        _snowboardCheck = 2.6;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 2.7){
+    else if (_snowboardSize == 27){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"159-161 cm"];
-        
+        _snowboardCheck = 2.7;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 3.1){
+    else if (_snowboardSize == 31){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"149-151 cm"];
-        
+        _snowboardCheck = 2.7;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 3.2){
+    else if (_snowboardSize == 32){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"150-152 cm"];
         
     }
-    else if (_snowboardSize == 3.3){
+    else if (_snowboardSize == 33){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"153-155 cm"];
+        _snowboardCheck = 3.3;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 3.4){
+    else if (_snowboardSize == 34){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"155-157 cm"];
+        _snowboardCheck = 3.4;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 3.5){
+    else if (_snowboardSize == 35){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"158-160 cm"];
-        
+        _snowboardCheck = 3.5;
+        NSLog(@"check = %f", _snowboardCheck);
     }
-    else if (_snowboardSize == 3.6){
+    else if (_snowboardSize == 36){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"159-161 cm"];
+        _snowboardCheck = 3.6;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 3.7){
+    else if (_snowboardSize == 37){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"162-164 cm"];
+        _snowboardCheck = 3.7;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.1){
+    else if (_snowboardSize == 41){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"150-152 cm"];
+        _snowboardCheck = 4.1;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.2){
+    else if (_snowboardSize == 42){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"151-153 cm"];
+        _snowboardCheck = 4.2;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.3){
+    else if (_snowboardSize == 43){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"154-146 cm"];
+        _snowboardCheck = 4.3;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.4){
+    else if (_snowboardSize == 44){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"157-159 cm"];
+        _snowboardCheck = 4.4;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.5){
+    else if (_snowboardSize == 45){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"158-160 cm"];
+        _snowboardCheck = 4.5;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.6){
+    else if (_snowboardSize == 46){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"161-163cm"];
+        _snowboardCheck = 4.6;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 4.7){
+    else if (_snowboardSize == 47){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"162-164 cm"];
+        _snowboardCheck = 4.7;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.1){
+    else if (_snowboardSize == 51){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"151-153cm"];
+        _snowboardCheck = 5.1;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.2){
+    else if (_snowboardSize == 52){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"153-155 cm"];
+        _snowboardCheck = 5.2;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.3){
+    else if (_snowboardSize == 53){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"155-157 cm"];
+        _snowboardCheck = 5.3;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.4){
+    else if (_snowboardSize == 54){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"158-160 cm"];
+        _snowboardCheck = 5.4;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.5){
+    else if (_snowboardSize == 55){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"159-161 cm"];
+        _snowboardCheck = 5.5;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else if (_snowboardSize == 5.6){
+    else if (_snowboardSize == 56){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"162-164 cm"];
+        _snowboardCheck = 5.6;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
-    else{
+    else if(_snowboardSize == 57){
         self.snowboardSizeLabel.text = [NSString stringWithFormat:@"164-166 cm"];
+        _snowboardCheck = 5.7;
+        NSLog(@"check = %f", _snowboardCheck);
         
     }
     

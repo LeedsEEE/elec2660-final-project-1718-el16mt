@@ -20,7 +20,8 @@
 
 @property float snowboardHeight;
 @property float snowboardWeight;
-@property float snowboardSize;
+@property int snowboardSize;
+@property float snowboardCheck;
 
 
 

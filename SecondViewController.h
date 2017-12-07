@@ -10,16 +10,23 @@
 
 @interface SecondViewController : UIViewController
 
+
+// measurement sliders
 - (IBAction)snowboardHeightSlider:(UISlider *)sender;
 - (IBAction)snowboardWeightSlider:(UISlider *)sender;
-- (IBAction)snowboardCalculate:(UIButton *)sender;
 
+- (IBAction)snowboardCalculate:(UIButton *)sender; // calculate button
+
+// labels
 @property (weak, nonatomic) IBOutlet UILabel *snowboardHeightLabel;
 @property (weak, nonatomic) IBOutlet UILabel *SnowboardWeightLabel;
 @property (weak, nonatomic) IBOutlet UILabel *snowboardSizeLabel;
 
+// measuerment variables
 @property float snowboardHeight;
 @property float snowboardWeight;
+
+//calculated variables 
 @property int snowboardSize;
 @property float snowboardCheck;
 

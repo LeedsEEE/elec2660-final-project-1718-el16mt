@@ -14,12 +14,20 @@
 
 @implementation SecondViewController
 
+#pragma mark viewDidLoad
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     self.snowboardHeightLabel.text = [NSString stringWithFormat:@"1.75 m"];
     self.SnowboardWeightLabel.text = [NSString stringWithFormat:@"72 kg"];
+    self.snowboardSizeLabel.text = [NSString stringWithFormat:@"155-157 cm"];
+    
+    _snowboardHeight = 1.75;
+    _snowboardWeight = 72;
+    
+    
     
 
     
@@ -41,9 +49,13 @@
 }
 */
 
+#pragma mark  height slider
+
 - (IBAction)snowboardHeightSlider:(UISlider *)sender {
-    self.snowboardHeightLabel.text = [NSString stringWithFormat:@"%.2f m", sender.value];
-    _snowboardHeight = sender.value;
+    self.snowboardHeightLabel.text = [NSString stringWithFormat:@"%.2f m", sender.value]; // height label set from slider
+    _snowboardHeight = sender.value; // height variable set from slider
+    
+    // snowboard size category calculated from height and weight
     
     if (_snowboardHeight < 1.51){
         if (_snowboardWeight < 50){
@@ -167,14 +179,16 @@
             _snowboardSize = 57;
         }
     }
-     NSLog(@"SNowboard height = %f", _snowboardHeight);
+     NSLog(@"SNowboard height = %f", _snowboardHeight); // check height
 }
 
+#pragma mark weight slider
+
 - (IBAction)snowboardWeightSlider:(UISlider *)sender {
-    self.SnowboardWeightLabel.text = [NSString stringWithFormat:@"%.0f kg", sender.value];
-    _snowboardWeight = sender.value;
+    self.SnowboardWeightLabel.text = [NSString stringWithFormat:@"%.0f kg", sender.value]; //weight label set from slider
+    _snowboardWeight = sender.value; // weight variable set from slider
     
-    NSLog(@"SNowboard weight = %f", _snowboardWeight);
+    NSLog(@"SNowboard weight = %f", _snowboardWeight); // check weight
     
     if (_snowboardHeight < 1.51){
         if (_snowboardWeight < 50){
@@ -298,19 +312,23 @@
             _snowboardSize = 57;
         }
     }
-    NSLog(@"snowboard size = %d", _snowboardSize);
+    NSLog(@"snowboard size = %d", _snowboardSize); // check size
     
     
 }
+
+#pragma mark caluclate button
 
 - (IBAction)snowboardCalculate:(UIButton *)sender {
     
     NSLog(@"snowboard size = %d", _snowboardSize);
     
     
+    // set label to display suggested snowboard size based on the variable snowboardSize calcualated earlier
+    
     if (_snowboardSize == 11){
             self.snowboardSizeLabel.text = [NSString stringWithFormat:@"146-148 cm"];
-        _snowboardCheck = 1.1;
+        _snowboardCheck = 1.1; // this variable is used to check the if statements were working correctly 
         NSLog(@"check = %f", _snowboardCheck);
         
     }

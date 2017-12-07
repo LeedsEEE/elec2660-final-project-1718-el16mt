@@ -23,19 +23,28 @@
     NSArray *_pickerData;
 }
 
+#pragma mark ViewDidLoad
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-       _pickerData = @[@"Beginner", @"Intermediate", @"Advanced"];
+       _pickerData = @[@"Beginner", @"Intermediate", @"Advanced"]; //These are the categories for the picker
     
     self.LevelPicker.delegate = self;
     self.LevelPicker.dataSource = self;
+    
+    // Set Labels to initial values
     
     self.heightLabel.text = [NSString stringWithFormat:@"1.63 m"];
     self.weightLabel.text = [NSString stringWithFormat:@"52 kg"];
     self.ageLabel.text = [NSString stringWithFormat:@"50"];
     self.bslLabel.text = [NSString stringWithFormat:@"292 mm"];
+    self.dinLabel.text = [NSString stringWithFormat:@"3.50"];
+    self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170"];
+    
+    // set variables to initial values
+    
     _dinValue = 3.5;
     _skiLength = 7;
     _height = 1.63;
@@ -44,11 +53,9 @@
     _bsl = 292;
     _skillCategory = 0;
     
-    self.dinLabel.text = [NSString stringWithFormat:@"3.50"];
-    self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170"];
-                          
+  
     
-
+    // set info pictures to be hidden
     
     self.skillInfo.hidden = true;
     self.bslInfo.hidden = true;
@@ -65,10 +72,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark height slider
 
 - (IBAction)heightSlider:(UISlider *)sender {
         self.heightLabel.text = [NSString stringWithFormat:@"%.2f m", sender.value];
     _height = sender.value;
+    
+    // calculate height category from height
     
     if (_height<1.49) {
         _heightCategory = 8;
@@ -90,10 +100,14 @@
     }
     
     _addCategory = ((_heightCategory + _weightCategory));
-    NSLog (@"height = %d", _heightCategory);
+    // add height and weight together to average later, I did the averaging in two steps to check it worked
     
-    _aveCategory = _addCategory/2;
-    _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    NSLog (@"height = %d", _heightCategory); // check height category
+    
+    _aveCategory = _addCategory/2; //take avergage of height and weight category
+    _skiCategory = _aveCategory + _skillCategory + _ageCategory; // calculate ski category from other variables
+    
+    // calculate ski length from height
     
     if (_height<1.33){
         _skiLength =1;
@@ -135,6 +149,7 @@
         _skiLength =13;
     }
     
+    // calculate DIN Value from ski category and BSL
     
     if (_skiCategory == 1){
         if (_bsl < 271){
@@ -378,9 +393,13 @@
 
 }
 
+#pragma mark weight slider
+
 - (IBAction)weightSlider:(UISlider *)sender {
-    self.weightLabel.text = [NSString stringWithFormat:@"%.0f kg", sender.value];
-    _weight = sender.value;
+    self.weightLabel.text = [NSString stringWithFormat:@"%.0f kg", sender.value]; // weight label set from slider
+    _weight = sender.value; // weight variable to set to slider value
+    
+    // weight category calculated from weight
     
     if (_weight<14) {
         _weightCategory = 1;
@@ -424,10 +443,14 @@
     
     _addCategory = ((_heightCategory + _weightCategory));
     _aveCategory = _addCategory/2;
+    // The average is repeated so that changing both height and weight slider continuously effects the average
+    
     _skiCategory = _aveCategory + _skillCategory + _ageCategory;
-     NSLog (@"weight = %d", _weightCategory);
-    NSLog (@"addition= %d", _addCategory);
-    NSLog (@"average = %d", _aveCategory);
+    // This is repeated for all variables so that every variable can individually change the skiCategory and therefore DINValue
+    
+    NSLog (@"weight = %d", _weightCategory); // check weight category
+    NSLog (@"addition= %d", _addCategory); // check weight and height addition
+    NSLog (@"average = %d", _aveCategory); // check weight and height average
     
     if (_skiCategory == 1){
         if (_bsl < 271){
@@ -666,9 +689,14 @@
 
 }
 
+#pragma mark age slider
+
 - (IBAction)ageSlider:(UISlider *)sender {
-    self.ageLabel.text = [NSString stringWithFormat:@"%.0f ", sender.value];
-    _age = sender.value;
+    self.ageLabel.text = [NSString stringWithFormat:@"%.0f ", sender.value]; // age label set from slider
+    _age = sender.value; // age variable set from slider
+    
+    // age category calculated - if the skier is below 10 or above 50, the ski category is decreased by 1
+    
     if (_age<10) {
         _ageCategory = -1;
     }
@@ -919,13 +947,13 @@
 }
 
 
-
+#pragma mark skill picker delegate methods
 
 - (NSString *)pickerView:(UIPickerView *)pickerView
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component;{
     
-    return _pickerData[row];
+    return _pickerData[row]; // number of rows is retrieved from picker data
     
 
 }
@@ -934,7 +962,11 @@
       didSelectRow:(NSInteger)row
        inComponent:(NSInteger)component;{
     NSString *selValue = [_pickerData objectAtIndex:[_LevelPicker selectedRowInComponent:0]];
-    NSLog (@"skill = %@", selValue);
+    //selValue os the selected skill in the picker
+    
+    NSLog (@"skill = %@", selValue); // check picker works correctly
+    
+    // skill category is corrected, if skill is intermediate or advanced the ski category is increased by 1 or 2 respectively
     
     if ([selValue isEqualToString:@"Beginner"]) {
         _skillCategory = 0;
@@ -1192,9 +1224,11 @@
 
 }
 
+#pragma mark bsl slider
+
 - (IBAction)bslSlider:(UISlider *)sender {
-    self.bslLabel.text = [NSString stringWithFormat:@"%.0f mm", sender.value];
-    _bsl = sender.value;
+    self.bslLabel.text = [NSString stringWithFormat:@"%.0f mm", sender.value]; // bsl label set from slider
+    _bsl = sender.value; // bsl variable set fro slider
     
      _skiCategory = _aveCategory + _skillCategory + _ageCategory;
     
@@ -1431,15 +1465,17 @@
     }
     
     
-       NSLog (@"Din = %f", _dinValue);
+       NSLog (@"Din = %f", _dinValue); // check din value
 }
 
 
-
+#pragma mark calculate button
 
 - (IBAction)calculateButton:(UIButton *)sender {
     
     _skiCategory = _aveCategory + _skillCategory + _ageCategory;
+    
+    // if the din value is equal to zero, the skier has entered impossible details and an error message will show in the din label
     
     if (_dinValue > 0){
         self.dinLabel.text = [NSString stringWithFormat:@"%.2f", _dinValue];
@@ -1449,6 +1485,7 @@
         
     }
     
+    // the ski length label shows a suggested ski length based on the height of the skier
     
     if (_skiLength == 1){
         self.skiLengthLabel.text = [NSString stringWithFormat:@"115-130"];
@@ -1492,7 +1529,7 @@
 }
 
     
-
+#pragma mark slider data source methods
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView;{
     return 1;
@@ -1504,9 +1541,11 @@
 
 
 
-
+#pragma mark info buttons
 
 - (IBAction)skillInfoButton:(UIButton *)sender {
+    
+    // all three info buttons cause a UIImage containing info to appear and dissapear with a click
     
     if (self.skillInfo.hidden == false){
         self.skillInfo.hidden = true;

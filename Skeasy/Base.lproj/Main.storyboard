@@ -94,6 +94,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SKIEASY LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="cwI-Jy-8fI">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cwI-Jy-8fI" secondAttribute="height" multiplier="318:169" id="GSQ-qr-Wmr"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -105,11 +110,13 @@
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="leading" secondItem="NRF-gu-uTb" secondAttribute="trailing" constant="-67" id="CGc-XC-MdL"/>
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="centerX" secondItem="qzE-B6-z3y" secondAttribute="centerX" id="Hai-RH-f7j"/>
                             <constraint firstItem="KiU-2Z-5I0" firstAttribute="leading" secondItem="qzE-B6-z3y" secondAttribute="leadingMargin" constant="113" id="SET-Wb-bGK"/>
+                            <constraint firstItem="WSg-Kw-v8p" firstAttribute="top" secondItem="cwI-Jy-8fI" secondAttribute="bottom" constant="-176" id="T7M-xa-JWs"/>
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="width" secondItem="qzE-B6-z3y" secondAttribute="width" id="TWa-6w-U60"/>
                             <constraint firstItem="Ut1-ym-R9s" firstAttribute="centerX" secondItem="qzE-B6-z3y" secondAttribute="centerX" id="VNH-X7-xVx"/>
                             <constraint firstItem="MHV-QU-cHd" firstAttribute="top" secondItem="Ut1-ym-R9s" secondAttribute="bottom" constant="172" id="WsY-UT-Vfl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ut1-ym-R9s" secondAttribute="trailing" id="Y26-9V-qbD"/>
                             <constraint firstItem="KiU-2Z-5I0" firstAttribute="top" secondItem="Ut1-ym-R9s" secondAttribute="bottom" constant="73" id="Y6n-sP-g9U"/>
+                            <constraint firstItem="cwI-Jy-8fI" firstAttribute="centerX" secondItem="WSg-Kw-v8p" secondAttribute="centerX" id="YXf-mh-x22"/>
                             <constraint firstItem="Ze3-lk-nqw" firstAttribute="trailing" secondItem="qzE-B6-z3y" secondAttribute="trailingMargin" id="c9D-j2-qqO"/>
                             <constraint firstItem="Ut1-ym-R9s" firstAttribute="top" secondItem="Ze3-lk-nqw" secondAttribute="bottom" constant="-10" id="eAp-6Y-gtt"/>
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="height" secondItem="qzE-B6-z3y" secondAttribute="height" id="fg7-wZ-e4L"/>
@@ -120,6 +127,7 @@
                             <constraint firstItem="uk8-VT-hEd" firstAttribute="top" secondItem="Mgk-a6-qBd" secondAttribute="bottom" constant="-6" id="mjv-uB-DvP"/>
                             <constraint firstItem="Ut1-ym-R9s" firstAttribute="top" secondItem="6lQ-tX-7bf" secondAttribute="bottom" constant="-13" id="o2Q-ve-ssb"/>
                             <constraint firstItem="KiU-2Z-5I0" firstAttribute="centerX" secondItem="WSg-Kw-v8p" secondAttribute="centerX" id="oA9-1B-PDe"/>
+                            <constraint firstItem="cwI-Jy-8fI" firstAttribute="width" secondItem="WSg-Kw-v8p" secondAttribute="height" multiplier="318:667" id="pOx-14-c19"/>
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="leading" secondItem="HDb-Oe-sYW" secondAttribute="trailing" constant="-144" id="sLa-uM-xKH"/>
                             <constraint firstItem="WSg-Kw-v8p" firstAttribute="leading" secondItem="6lQ-tX-7bf" secondAttribute="trailing" constant="-71" id="tyl-2g-QNi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KiU-2Z-5I0" secondAttribute="trailing" constant="113" id="vIm-tV-hgO"/>
@@ -270,8 +278,7 @@
                                     <action selector="bslInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hLd-Vo-Kc5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skill level writing.png" translatesAutoresizingMaskIntoConstraints="NO" id="bv7-Gl-ApW">
-                                <frame key="frameInset" minX="17" minY="59" width="340" height="277"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skill level writing.png" translatesAutoresizingMaskIntoConstraints="NO" id="bv7-Gl-ApW">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bv7-Gl-ApW" secondAttribute="height" multiplier="340:277" id="eNO-Q8-WFm"/>
                                 </constraints>
@@ -286,18 +293,15 @@
                                     <constraint firstAttribute="width" secondItem="y9o-Lt-Ud0" secondAttribute="height" multiplier="220:189" id="IOU-G1-MuS"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bsl info writing.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCc-zA-dr4">
-                                <frame key="frameInset" minX="73" minY="403" width="322" height="236"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="oCc-zA-dr4" secondAttribute="height" multiplier="291:212" id="535-0G-wRs"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bsl info writing.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCc-zA-dr4">
+                                <frame key="frameInset" minX="73" minY="358" width="322" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uMO-so-dTn" firstAttribute="top" secondItem="oX0-Gm-jyN" secondAttribute="bottom" constant="-12" id="0R8-mT-6Wt"/>
                             <constraint firstAttribute="leadingMargin" secondItem="mjX-QX-UDn" secondAttribute="leading" id="1un-nW-8v7"/>
-                            <constraint firstItem="oCc-zA-dr4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="187" id="3t3-8a-cH2"/>
                             <constraint firstItem="Ejm-gT-Dgf" firstAttribute="top" secondItem="bv7-Gl-ApW" secondAttribute="bottom" constant="-8" id="451-po-SzZ"/>
                             <constraint firstItem="NhO-cU-PoR" firstAttribute="leading" secondItem="7bh-hm-8qc" secondAttribute="trailing" constant="-170" id="4yn-Hj-ZvV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sSu-Fl-Kqy" secondAttribute="trailing" id="55h-T7-gAz"/>
@@ -348,11 +352,11 @@
                             <constraint firstItem="sSu-Fl-Kqy" firstAttribute="top" secondItem="dHs-Gd-IqQ" secondAttribute="bottom" constant="30" id="hn4-kt-YFF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="O5p-h9-45V" secondAttribute="trailing" id="iK6-oi-dlh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Q22-Me-0ZZ" secondAttribute="trailing" id="jZZ-es-eh2"/>
+                            <constraint firstItem="bv7-Gl-ApW" firstAttribute="leading" secondItem="Ejm-gT-Dgf" secondAttribute="trailing" constant="-101" id="kuK-zX-oFr"/>
                             <constraint firstItem="NhO-cU-PoR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lpp-wY-foc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oX0-Gm-jyN" secondAttribute="trailing" id="n24-fH-lvQ"/>
                             <constraint firstItem="Y5e-nQ-eCm" firstAttribute="top" secondItem="Nxd-Rs-9OS" secondAttribute="bottom" constant="123" id="o6C-e3-yfE"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Uua-fX-9Pf" secondAttribute="leading" id="o99-aV-z4K"/>
-                            <constraint firstItem="bv7-Gl-ApW" firstAttribute="leading" secondItem="fHK-dV-nBC" secondAttribute="trailing" constant="-130" id="q7t-qO-D5w"/>
                             <constraint firstItem="NhO-cU-PoR" firstAttribute="leading" secondItem="Ejm-gT-Dgf" secondAttribute="trailing" constant="-118" id="taz-Ea-uEO"/>
                             <constraint firstItem="sSu-Fl-Kqy" firstAttribute="top" secondItem="EsA-9L-3Wx" secondAttribute="bottom" constant="-10" id="thL-4c-zQM"/>
                             <constraint firstItem="7bh-hm-8qc" firstAttribute="centerY" secondItem="Uua-fX-9Pf" secondAttribute="centerY" id="twr-p8-zUv"/>

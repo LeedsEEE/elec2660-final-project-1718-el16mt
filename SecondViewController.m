@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.snowboardHeightLabel.text = [NSString stringWithFormat:@"1.75 m"];
+    self.SnowboardWeightLabel.text = [NSString stringWithFormat:@"72 kg"];
+    
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

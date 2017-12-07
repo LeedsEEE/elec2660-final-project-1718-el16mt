@@ -36,8 +36,19 @@
     self.weightLabel.text = [NSString stringWithFormat:@"52 kg"];
     self.ageLabel.text = [NSString stringWithFormat:@"50"];
     self.bslLabel.text = [NSString stringWithFormat:@"292 mm"];
+    _dinValue = 3.5;
+    _skiLength = 7;
+    _height = 1.63;
+    _weight = 52;
+    _age = 50;
+    _bsl = 292;
+    _skillCategory = 0;
+    
     self.dinLabel.text = [NSString stringWithFormat:@"3.50"];
-    self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170 m"];
+    self.skiLengthLabel.text = [NSString stringWithFormat:@"150-170"];
+                          
+    
+
     
     self.skillInfo.hidden = true;
     self.bslInfo.hidden = true;
